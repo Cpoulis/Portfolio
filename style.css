@@ -42,11 +42,9 @@ ABOUT
 ********************/
 
 #about{
-    margin: 60px; 
+    margin: 60px auto; 
     max-width: 400px;
     text-align: center;
-    
-
 }
 
 #about img{
@@ -56,20 +54,21 @@ ABOUT
 }
 
 #about .name{
-    for-size: 19px;
+    font-size: 19px;
 }
 
 #about .vocation{
     font-size: 17px;
-    color: #00abae;
+    color: silver;
+    font-weight: bold;
     margin-bottom: 10px;
-    
 }
 
 #about .skills{
     font-size: 14px;
-    color: #00abae;
+    color: #23f8fc;
     margin-bottom: 10px;
+    font-weight: bold;
 
 }
 
@@ -82,8 +81,6 @@ ABOUT
 #about .icons{
     margin-top: 20px;
     font-size: 30px;
-
-
 }
 
 /********************************
@@ -110,5 +107,5 @@ PROJECT
 
 #project.card{
     font-weight: bold;
-    
+
 }
