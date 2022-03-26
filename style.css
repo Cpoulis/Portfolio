@@ -31,7 +31,7 @@ h2{
 }
 
 a.font-black{
-    color: #000; !important;
+    color: #000;
 
 }
 
@@ -46,11 +46,15 @@ ABOUT
     max-width: 400px;
     text-align: center;
 }
+#about .linespace{
+    line-height:30px;
+}
 
 #about img{
     border-radius: 100%;
-    width: 100px;
+    width: 120px;
     margin-bottom: 10px;
+    height: 110px;
 }
 
 #about .name{
@@ -59,14 +63,14 @@ ABOUT
 
 #about .vocation{
     font-size: 17px;
-    color: silver;
+    color: #A8A8AB;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 #about .skills{
     font-size: 14px;
-    color: #23f8fc;
+    color: #00ABAE;
     margin-bottom: 10px;
     font-weight: bold;
 
@@ -80,7 +84,14 @@ ABOUT
 
 #about .icons{
     margin-top: 20px;
-    font-size: 30px;
+}
+#about .icons{
+    margin-top:14px;
+    font-size:30px;
+}
+
+#about .icons a {
+    color: #000
 }
 
 /********************************
